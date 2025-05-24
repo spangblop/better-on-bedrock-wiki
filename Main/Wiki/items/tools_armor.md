@@ -1,5 +1,5 @@
-# Better on Bedrock: Tools
-This page will go over tools in the Add-On, and each tool tier.
+# Better on Bedrock: Tools & Armor
+This page provides an overview of the tools and armor available in Better on Bedrock, including a breakdown of each material tier in order of strength.
 
 ## Tool & Armor Tiers
 Better on Bedrock adds a few new tiers of tools and armor. We will list them in order, from weakest to strongest.
@@ -33,7 +33,7 @@ Better on Bedrock adds a few new tiers of tools and armor. We will list them in 
 
 
 ### Info
-Stardust is a new armor and tool tier for Better on Bedrock, and it is better than Netherite.
+Stardust is a new armor and tool tier for Better on Bedrock, and it's better than Netherite.
 ### How to obtain
 Getting stardust is pretty easy. All you do is mine the stardust ore which will drop a stardust nugget. You smelt this nugget to get stardust. You use stardust to craft a stardust ingot.
 
@@ -133,34 +133,148 @@ We are also forced to use netherite ingots inside the `addition` slot, because t
 :::
 
 A full set of Stardust Armor will grant you with Health Boost II and Resistance II
-
-## Corstinite
+## Armor
+### Corstinite armor 
+Crafted using corstinite, an ore found in the nether.
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/armor/corstinite.png" alt="Example Image" width="128">
 </div>
 
-## Amethyst
+|**item**  |**Armor**|**Durability**|
+|----------|-----------|------------|
+|  Helmet  |           |            |
+|Chestplate|           |            | 
+| Leggings |           |            |
+|  Boots   |           |            |
+
+### Amethyst armor 
 A full set of Amethyst Armor will apply knockback to any mob that attacks the player.
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/armor/amethyst.png" alt="Example Image" width="128">
 </div>
 
+|**item**  |**Armor**|**Durability**|
+|----------|-----------|------------|
+|  Helmet  |           |            |
+|Chestplate|           |            | 
+| Leggings |           |            |
+|  Boots   |           |            |
 
-## Copper
+### Copper armor 
 Weaker than Iron, but essential at the early game.
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/armor/copper_armor.png" alt="Example Image" width="128">
 </div>
 
+|**item**  |**Armor**|**Durability**|
+|----------|-----------|------------|
+|  Helmet  |           |            |
+|Chestplate|           |            | 
+| Leggings |           |            |
+|  Boots   |           |            |
 
-## Shulker
+### Shulker armor 
 A full set of Shulker Armor will make Enderman and Shulkers passive towards you.
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/armor/shulker_armor.png" alt="Example Image" width="128">
 </div>
 
-## Stardust
+|**item**  |**Armor**|**Durability**|
+|----------|-----------|------------|
+|  Helmet  |           |            |
+|Chestplate|           |            | 
+| Leggings |           |            |
+|  Boots   |           |            |
+
+### Stardust armor
+A full set of Stardust Armor will grant you with Health Boost II and Resistance II
 <div style="display: flex; align-items: center;">
     <img src="/Main/assets/armor/stardust.png" alt="Example Image" width="128">
 </div>
 
+|**item**  |**Armor**|**Durability**|
+|----------|-----------|------------|
+|  Helmet  |           |            |
+|Chestplate|           |            | 
+| Leggings |           |            |
+|  Boots   |           |            |
+
+### Voided boots
+Wearing these boots allows you to walk over the void, consuming durability while doing so. Found within End structures.
+<div style="display: flex; align-items: center;">
+    <img src="/Main/assets/voiding_boots.png" alt="Example Image" width="128">
+</div>
+
+|**item**|**Armor**|**Durability**|
+|--------|---------|--------------|
+|  Boots | +4      | 64           |
+
+## Wearables
+### The ardent crystal
+Crafted for those who live with elevated taste.
+<div style="display: flex; align-items: center;">
+    <img src="/Main/assets/items/the_ardent_crystal.png" alt="Example Image" width="128">
+</div>
+
+|**Slot**|**Armor**|**Durability**|
+|--------|---------|--------------|
+|  head  | +1      | -            |
+
+### Adventure hat
+Repairable using leather, obtained through [quests](/Main/Wiki/items/quests_bounties.html#quests).
+<div style="display: flex; align-items: center;">
+    <img src="/Main/assets/adventure_hat.png" alt="Example Image" width="128">
+</div>
+
+|**Slot**|**Armor**|**Durability**|
+|--------|---------|--------------|
+|  head  | +2      | 100          |
+
+### Williager hat
+Placeable fancy hat dropped by the [Williager](/Main/Wiki/mobs.html#willager).
+<div style="display: flex; align-items: center;">
+    <img src="/Main/assets/willager_hat.png" alt="Example Image" width="128">
+</div>
+
+|**Slot**|**Armor**|**Durability**|
+|--------|---------|--------------|
+|  head  | -       | -             |
+
+### Schroom hat
+Obtained by crafting or a rare drop from the [Mush](/Main/Wiki/mobs.html#mush).
+<div style="display: flex; align-items: center;">
+    <img src="/Main/assets/schroom_hat.png" alt="Example Image" width="128">
+</div>
+
+|**Slot**|**Armor**|**Durability**|
+|--------|---------|--------------|
+|  head  | +5      | 1156         |
+
+## Tools
+### Spears
+
+<ImageShuffler
+  :images="[
+    'stardust_sword',
+    'stardust_pickaxe',
+    'stardust_axe',
+    'stardust_shovel',
+    'stardust_hoe'
+  ]"
+/>
+
+### Bane spike
+### Blade of the nether
+### Amethyst tools
+### Copper tools
+### Enderite tools
+### Stardust tools
+<ImageShuffler
+  :images="[
+    'stardust_sword',
+    'stardust_pickaxe',
+    'stardust_axe',
+    'stardust_shovel',
+    'stardust_hoe'
+  ]"
+/>
